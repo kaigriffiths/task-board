@@ -1,0 +1,26 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+  }
+  
+  .swim-lanes {
+    min-height: 60vh;
+  }
+  
+  .task-card {
+    margin: 0 auto;
+  }
+  
+  .task-card:hover {
+    cursor: grab;
+  }
+
+  /* Overdue */
+  .red {
+    background-color: #ec7063;
+  }
+  
+  /* Nearing deadline */
+  .yellow {
+    background-color: #b2a048;
+  }
